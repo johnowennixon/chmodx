@@ -1,0 +1,29 @@
+{
+  "name": "@johnowennixon/chmodx",
+  "version": "1.0.0",
+  "description": "Command line utility for setting the executable bits on files",
+  "license": "MIT",
+  "author": {
+    "name": "John Owen Nixon",
+    "email": "john.owen.nixon@gmail.com",
+    "url": "https://johnowennixon.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnowennixon/chmodx.git"
+  },
+  "bin": {
+    "chmodx": "./index.js"
+  },
+  "scripts": {
+    "start": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "globby": "^11.1.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
