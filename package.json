@@ -20,7 +20,8 @@
     "chmodx": "./index.js"
   },
   "scripts": {
-    "start": "./index.js"
+    "start": "./index.js",
+    "test": "exit 0"
   },
   "dependencies": {
     "chalk": "4.1.2",
