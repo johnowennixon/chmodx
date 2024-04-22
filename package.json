@@ -13,23 +13,22 @@
     "url": "https://github.com/johnowennixon/chmodx.git"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "type": "commonjs",
   "bin": {
     "chmodx": "./index.js"
   },
   "scripts": {
+    "lint": "biome check *.js",
     "start": "./index.js",
     "test": "exit 0"
   },
   "dependencies": {
-    "ansis": "1.5.5",
+    "ansis": "3.1.1",
     "globby": "11.1.0"
   },
-  "prettier": {
-    "singleQuote": true,
-    "printWidth": 120
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "@biomejs/biome": "1.7.1"
+  }
 }
