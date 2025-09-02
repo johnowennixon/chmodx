@@ -6,7 +6,7 @@ const globby = require("globby")
 const {yellow, red} = require("ansis")
 
 function main() {
-  (async () => {
+  ;(async () => {
     let hasErrors = false
     let files = []
     const [usePackage, patterns] = process.argv.slice(2).reduce(
@@ -17,7 +17,8 @@ function main() {
     )
 
     if (patterns.length === 0 && !usePackage) {
-      console.error(`
+      console.error(
+        `
 Usage: chmodx [--package] "<glob>" ["<glob>"...]
 
 Sets the executable bit on all files which match the glob patterns. Put glob

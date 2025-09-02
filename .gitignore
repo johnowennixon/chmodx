@@ -1,1 +1,23 @@
-node_modules
+# Operating system utilities
+.DS_Store
+
+# AI coding tools
+AGENT.md
+AGENTS.md
+CLAUDE.md
+CRUSH.md
+GEMINI.md
+QWEN.md
+.aider*
+.claude/
+.crush/
+.gemini/
+
+# TypeScript
+dist/
+node_modules/
+out/
+test.*/
+.env
+.eslintcache
+.npm.token
